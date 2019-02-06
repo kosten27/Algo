@@ -8,7 +8,6 @@ public class InsertionSort {
     }
 
     public static void sort(int[] ints) {
-
         int step = 0;
         for (int i = 1; i < ints.length; i++) {
             for (int j = 0; j < i; j++) {

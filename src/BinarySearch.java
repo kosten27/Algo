@@ -19,7 +19,6 @@ public class BinarySearch {
 
     public static void search(int[] ints, int value, int min_idx, int max_idx) {
 
-
         int b = (min_idx + max_idx + 1) / 2;
         if (ints[b] == value) {
             System.out.println("index: " + b);
